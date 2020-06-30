@@ -1,0 +1,19 @@
+{
+  "name": "commandprompt",
+  "version": "1.0.0",
+  "description": "My first project after completing web dev project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riya Kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
+  }
+}

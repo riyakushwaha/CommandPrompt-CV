@@ -1,0 +1,152 @@
+
+body{
+  background-color: #588da8;
+  color:#f4f4f4;
+  font-family: Consolas;
+  margin:  0 auto auto 0 ;
+  text-align: left;
+}
+
+p{
+  margin: 0;
+}
+
+ /* -----------------------Navigation Section--------------------  */
+
+ a{
+   padding: 0;
+   margin:0;
+   color: #0bc;
+
+}
+
+.circle1, .circle2, .circle3{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.circle1{
+background-color: #fa163f;
+}
+
+.circle1:hover{
+
+}
+
+.circle2{
+  background-color: #ffa34d;
+}
+
+.circle3{
+  background-color: #844685;
+}
+
+.icon1, .icon2, .icon3{
+  color: black;
+  position: relative;
+  margin-top:6px;
+}
+
+.nav{
+  background-color: #f4f4f4;
+  border-radius: 15px 15px 0 0;
+  height: 52px;
+  margin: 5% auto  0 auto;
+  padding: 10px 5px 10px 10px;
+  text-align: center;
+  width: 50%;
+}
+
+ /* --------------------Main Dynamic Body Section-------------------------  */
+
+ input {
+   background: transparent;
+   border: none;
+   color: white;
+   max-width: 70px;
+ }
+
+ input:focus {
+   outline: none;
+ }
+
+.mainbody{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin:  0 auto 0 auto ;
+  padding: 5px 7px 5px 7px;
+  width: 50%;
+  height: 500px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto;
+  border-radius: 0 0 15px 15px ;
+}
+
+table{
+table-layout: fixed;
+}
+
+.data{
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+td{
+  vertical-align: top;
+}
+
+span.colourtext{
+  color:#0bc  ;
+}
+
+span.prefix{
+color:#0f0 ;
+}
+
+/* -------------------------Footer Section-----------------------------  */
+.errorbody{
+  background-color: black;
+  margin:  0 auto 0 auto ;
+  padding-bottom: : 15px;
+  width: 50%;
+  color: white;
+  height: 500px;
+  border-radius: 0 0 15px 15px ;
+
+}
+
+.ins{
+width: 90%;
+margin: 2px 55px;
+}
+
+.space{
+  height: 150px;
+}
+
+ /* -------------------------Footer Section-----------------------------  */
+
+ .mydetails{
+  background-color: #588da8;
+  color: white;
+  font-size: 1rem;
+  height: 100px;
+  margin:  0 auto  0 auto ;
+  padding-bottom: 0;
+  text-align: center;
+  width: 50%;
+ }
+
+.social-icon{
+  color: black;
+  margin: 50px 3px 5px 3px;
+}
+
+
+/* -------------------------Comment Section-----------------------------  */
+	/*  , #0bc;*/

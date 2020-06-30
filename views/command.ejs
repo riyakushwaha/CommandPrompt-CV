@@ -1,0 +1,76 @@
+<%- include("partials/header"); -%>
+
+<section id="main">
+<div class="mainbody">
+
+<p>
+<span class="prefix">User@Website~$:</span>
+To retrieve information, input given commands.(Commands are <span class="colourtext">case-sensitive</span>)
+</p>
+
+<table>
+  <col width="100">
+  <col width="1000">
+    <tr>
+      <td>COMMAND</td>
+      <td>FUNCTION</td>
+    </tr>
+
+    <tr>
+      <td>EDU</td>
+      <td>Displays education background which includes graduation, inter-mediate and highschool. </td>
+    </tr>
+
+    <tr>
+      <td>INTERN</td>
+      <td>Displays information about internships from 2017 to 2020.</td>
+    </tr>
+
+    <tr>
+      <td>ROLES</td>
+      <td>Displays information about different roles of responsibilties.</td>
+    </tr>
+
+    <tr>
+      <td>AWARDS</td>
+      <td>Displays information about awards and achievements bagged from 2017 to 2020.</td>
+    </tr>
+
+    <tr>
+      <td>PROJ</td>
+      <td>Displays deatailed information of all the projects. </td>
+    </tr>
+</table>
+<form  action="/commandprompt" method="post">
+
+  <label><span class="prefix">User@Website~$:</span></label>
+ <input type="text" name="requestedCommand" placeholder="command">
+<input type="submit" name="" value="">
+
+</form>
+
+<% cofield.forEach(function(item){ %>
+
+
+
+         <table>
+           <col width="250px" />
+           <col width="250px" />
+           <col width="400px" />
+           <tr>
+               <td><%=item.name %></td>
+               <td><%=item.year %></td>
+               <td><%=item.place %></td>
+           </tr>
+          </table>
+
+ <p><%=item.description %></p>
+ <br />
+
+  <% });%>
+
+
+</div>
+ </section>
+
+<%- include("partials/footer"); -%>
