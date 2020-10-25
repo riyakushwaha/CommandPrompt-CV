@@ -2,8 +2,6 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const ejs = require("ejs");
-const lodash= require("lodash");
 const mongoose = require("mongoose");
 
 const intro = "Hello, I am Riya.";
