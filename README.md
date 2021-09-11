@@ -14,5 +14,5 @@ HTML CSS, Express, Node.js
 alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 
 ## Screenshots
-<img src="Demo/cp-cv2.png" >
-<img src="Demo/cp-cv3.png" >
+<img src="Demo/cp-cv2.png" width="45%">
+<img src="Demo/cp-cv3.png" width="45%" >
